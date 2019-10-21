@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Home from './Home'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Trip App</h1>
-        <h2>Coming Soon....</h2>
+        <Home/>
       </div>
     );
   }
