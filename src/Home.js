@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './Home.css';
 import fetchTrips from './FetchData';
-import TripCard from './TripCard'
+import TripCard from './TripCard';
 
-export default class Home extends Component{
+class Home extends Component{
+
+ 
 
     constructor(props){
         super(props);
@@ -38,3 +40,6 @@ export default class Home extends Component{
         );
     }
 }
+
+
+export default Home;
